@@ -7,14 +7,14 @@ body{
 /* HEADER */
 
 header div{
-  width: 100vw;
+  width: 98.9vw;
   height: 44px;
 
   background-color: #000
 }
 
 header ul{
-  width: 1090px;
+  width: 1070px;
   height: 100%;
 
   margin: 0 auto;
@@ -50,7 +50,7 @@ header ul li{
     }
 /* apple logo */
 header ul li:first-child{
-  font-size: 1.35em;
+  font-size: 1.4em;
 }
 
 /* search icon */
@@ -67,25 +67,149 @@ header ul li:last-child{
   background-repeat: no-repeat;
 }
 
-/* navbar2 */
+/* NAVBAR2 ICONS*/
 #navbar2{
-  width: 100vw;
+  width: 98.9vw;
   height: 116px;
   background-color: #141414;
+  box-sizing: border-box;
 }
 
-#navbar2 ul{
-  width: 50%;
-  height: 116px;
-  margin: 0 auto;
+#navIcons{
+  width: 33%;
+  height: 65%;
+  margin: 0px 0px 0px 505px;
+  box-sizing: border-box;
+  padding: 15px 0px 0px 0px;
 }
 
-#navbar2 ul li{
+#navIcons li{
   display: inline-block;
   color: white;
   width: 20%;
   height: 100%;
+
   float: left;
-  line-height: 116px;
+
+}
+
+    #navIcons li:first-child{
+      background: url('../stylesheets/media/imgs/header 2/apple_tv_dark_large.svg');
+      background-repeat: no-repeat;
+    }
+    #navIcons li:nth-child(2){
+      background: url('../stylesheets/media/imgs/header 2/apple_tv_dark_large.svg');
+      background-repeat: no-repeat;
+    }
+    #navIcons li:nth-child(3){
+      background: url('../stylesheets/media/imgs/header 2/tvapp_dark_large.svg');
+      background-repeat: no-repeat;
+    }
+    #navIcons li:nth-child(4){
+      background: url('../stylesheets/media/imgs/header 2/accessories_dark_large.svg');
+      background-repeat: no-repeat;
+    }
+    #navIcons li:last-child{
+      background: url('../stylesheets/media/imgs/header 2/compare_dark_large.svg');
+      background-repeat: no-repeat;
+    }
+
+/* NAVBAR2 TEXT */
+
+#navText{
+  width: 34%;
+  height: 20%;
+  margin: 0px 0px 0px 490px;
+  padding-top: 0px;
+}
+
+#navText li{
+  display: inline-block;
+  color: white;
+  width: 20%;
+  height: 100%;
+
+  float: left;
+
+  font-size: 0.68em;
+  font-weight: 300;
+  letter-spacing: 1px;
+
+  cursor: pointer;
+}
+
+    #navText li:hover{
+      color: #5BADD3;
+    }
+
+#backgroundIMG1{
+  width: 98.9vw;
+  height: 1137px;
+  background: url('../stylesheets/media/imgs/hero_large_2x.jpg');
+  background-repeat: no-repeat;
+  background-size: 2550px;
+  background-position: top;
+
+}
+
+#netflix{
+  width: 100px;
+  height: 29px;
+  background: url(../stylesheets/media/imgs/netflix_logo_large_2x.png);
+  background-size: 100px 29px;
+
+  position: absolute;
+
+  margin: 320px 0px 0px 1210px;
+}
+
+/* 4K TV TEXT*/
+#backgroundIMG1 h1{
+  color: white;
+  font-size: 3.1em;
+  text-align: center;
+
+  position: absolute;
+
+  margin: 680px 0px 0px 642px;
+
+  letter-spacing: 0.01em;
+  word-spacing: 0.1px;
+
+}
+
+    #BG1appleLogo{
+      font-size: 0.9em;
+    }
+
+    #BG1-4k{
+      font-size: 0.75em;
+      font-weight: 900;
+    }
+
+#backgroundIMG1 h2{
+  color: white;
+  font-size:3.8em;
+  font-weight: 500;
+
+  position: absolute;
+
+  margin: 745px 0px 0px 360px;
+
+
+}
+
+#backgroundIMG1 h3{
+  color: white;
+  font-size:1.4em;
+  text-align: center;
+  font-weight: 400;
+
+  position: absolute;
+
+  margin: 830px 0px 0px 25px;
+  padding: 0px 250px;
+
+  line-height: 1.5;
 
 }
