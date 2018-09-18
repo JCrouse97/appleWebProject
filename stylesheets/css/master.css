@@ -363,6 +363,7 @@ width: 98.9vw;
 height: 1023px;
 }
 
+/* Accessories */
 #backgroundIMG3 h1{
   color: white;
   font-size: 1.5em;
@@ -372,6 +373,7 @@ height: 1023px;
   margin: 115px 0px 0px 45.5%;
 }
 
+/* GET EVEN MORE FROM YOUR APPLE TV */
 #backgroundIMG3 h2{
   color: white;
   font-size: 3.8em;
@@ -385,6 +387,7 @@ height: 1023px;
   letter-spacing: -1px;
 }
 
+/* IMG 2 PARAGRAPH */
 #backgroundIMG3 h3{
   color: white;
   font-size: 1.5em;
@@ -397,6 +400,7 @@ height: 1023px;
   line-height: 1.3;
 }
 
+/* SHOP Accessories link */
 #backgroundIMG3 h4{
   color: #66BBFF;
   font-size: 1.37em;
@@ -408,9 +412,23 @@ height: 1023px;
   top: 45px;
 }
 
-#BG3LMArrow{
+    #BG3LMArrow{
+      position: relative;
+      font-size: 1.8em;
+      font-weight: 300;
+      top: 5px;
+    }
+
+/* IMG 3 ACTUAL */
+#IMG3{
+  width: 619px;
+  height:493px;
+  background: url(../stylesheets/media/imgs/accessories_large_2x.jpg);
+  background-size: 619px 493px;
+
   position: relative;
-  font-size: 1.8em;
-  font-weight: 300;
-  top: 5px;
+
+  top: 75px;
+  left: 403px;
+
 }
