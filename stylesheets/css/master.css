@@ -337,7 +337,32 @@ cursor: pointer;
 
 #BG2LMArrow{
   position: absolute;
+
   margin: -36px 0px 0px 127px;
   font-size: 1.9em;
   font-weight: 300;
+}
+
+/* IMG 2 ACTUAL */
+#IMG2{
+  width: 932px;
+  height: 572px;
+  background: url('../stylesheets/media/imgs/watchnow_large_2x.jpg');
+  background-size: 932px 572px;
+
+  position: absolute;
+
+  margin: 590px 0px 0px 250px;
+
+}
+
+/* BACKGROUNDIMG3 */
+
+#backgroundIMG3{
+width: 98.9vw;
+height: 1023px;
+}
+
+#backgroundIMG3 h1{
+  
 }
