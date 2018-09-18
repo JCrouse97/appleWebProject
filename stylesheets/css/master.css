@@ -364,5 +364,53 @@ height: 1023px;
 }
 
 #backgroundIMG3 h1{
-  
+  color: white;
+  font-size: 1.5em;
+
+  position: relative;
+
+  margin: 115px 0px 0px 45.5%;
+}
+
+#backgroundIMG3 h2{
+  color: white;
+  font-size: 3.8em;
+  font-weight: 500;
+  text-align: center;
+  line-height: 1.15;
+
+  position: relative;
+  top: 12px;
+  left: 5px;
+  letter-spacing: -1px;
+}
+
+#backgroundIMG3 h3{
+  color: white;
+  font-size: 1.5em;
+  font-weight: 300;
+  text-align: center;
+
+  position: relative;
+
+  top: 35px;
+  line-height: 1.3;
+}
+
+#backgroundIMG3 h4{
+  color: #66BBFF;
+  font-size: 1.37em;
+  font-weight: 400;
+
+  position: relative;
+
+  left: 615px;
+  top: 45px;
+}
+
+#BG3LMArrow{
+  position: relative;
+  font-size: 1.8em;
+  font-weight: 300;
+  top: 5px;
 }
