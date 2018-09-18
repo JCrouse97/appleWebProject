@@ -312,3 +312,32 @@ cursor: pointer;
 
   margin: 135px 0px 0px 28%;
 }
+
+/* IMG2 PARAGRAPH */
+#backgroundIMG2 h3{
+  color: white;
+  font-size: 1.48em;
+  line-height: 1.38;
+  font-weight: 300;
+
+  position: absolute;
+
+  margin: 290px 0px 0px 25%;
+  text-align: center;
+}
+
+#backgroundIMG2 h4{
+  color: #66BBFF;
+  font-size: 1.45em;
+  font-weight: 400;
+  margin: 510px 0px 0px 45.5%;
+
+  position: absolute;
+}
+
+#BG2LMArrow{
+  position: absolute;
+  margin: -36px 0px 0px 127px;
+  font-size: 1.9em;
+  font-weight: 300;
+}
