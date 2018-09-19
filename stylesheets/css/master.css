@@ -702,3 +702,110 @@ height: 1023px;
               }
 
       /* ******************Apple Values*********************** */
+      #A-V{
+        color:#848484;
+        font-size: 0.7em;
+        font-weight: 400;
+        width: 200px;
+
+        position: relative;
+        left: 810px;
+        bottom: 700px;
+
+      }
+
+          #A-V li{
+            padding-bottom: 13px;
+          }
+              #A-V li:first-child{
+                color: #CCCCCC;
+              }
+
+        /* ******************About Apple********************** */
+        #A-A{
+          color:#848484;
+          font-size: 0.7em;
+          font-weight: 400;
+          width: 200px;
+
+          position: relative;
+          left: 1008px;
+          bottom: 979px;
+
+        }
+
+            #A-A li{
+              padding-bottom: 13px;
+            }
+                #A-A li:first-child{
+                  color: #CCCCCC;
+                }
+
+                #appleSubMenus li:hover{
+                  cursor: pointer;
+                  text-decoration: underline;
+                  color: #ccc;
+
+                }
+
+        /* ***************Contact info and other garbage**************** */
+#appleSubMenus h1{
+  color: #5A5A5A;
+  font-size: 0.7em;
+  font-weight: 400;
+  width: 500px;
+  position: relative;
+  bottom: 837px;
+  left: 222px;
+  letter-spacing: 0.02em;
+  line-height: 1.5;
+}
+
+#appleSubMenus span{
+  color: #64A9D7
+}
+
+#hr3{
+  width: 980px;
+  border-color: #555555;
+  color: #555555;
+  position: relative;
+  bottom: 872px;
+}
+
+#appleSubMenus h2{
+  color: #9a9a9a;
+  font-size: 0.68em;
+  font-weight: 300;
+  width: 500px;
+
+  position: relative;
+  bottom: 870px;
+  left: 500px;
+  letter-spacing: 0.1em;
+}
+
+#appleSubMenus h3{
+  color: #9a9a9a;
+  font-size: 0.66em;
+  font-weight: 300;
+  width: 200px;
+  letter-spacing: 0.8px;
+
+  position: relative;
+  bottom: 883px;
+  left: 1105px;
+}
+
+span#flagIMG{
+  color: transparent;
+  font-size: 1.5em;
+  width: 30px;
+  height: 30px;
+  background: url('../stylesheets/media/imgs/footer/32.png');
+  background-size: 16px 16px;
+  background-repeat: no-repeat;
+  position: relative;
+  top: 2px;
+  background-position: center;
+}
