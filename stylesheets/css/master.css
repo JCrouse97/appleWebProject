@@ -640,3 +640,65 @@ height: 1023px;
             #A-S li:first-child{
               color: #CCCCCC;
             }
+
+      /* *********************For Education**************************** */
+      #F-E{
+        color:#848484;
+        font-size: 0.7em;
+        font-weight: 400;
+        width: 200px;
+
+        position: relative;
+        left: 615px;
+        bottom: 570px;
+
+      }
+
+          #F-E li{
+            padding-bottom: 13px;
+          }
+              #F-E li:first-child{
+                color: #CCCCCC;
+              }
+
+      /* *********************For Business**************************** */
+      #F-B{
+        color:#848484;
+        font-size: 0.7em;
+        font-weight: 400;
+        width: 200px;
+
+        position: relative;
+        left: 615px;
+        bottom: 558px;
+
+      }
+
+          #F-B li{
+            padding-bottom: 13px;
+          }
+              #F-B li:first-child{
+                color: #CCCCCC;
+              }
+
+      /* *******************Account****************************** */
+      #ACC{
+        color:#848484;
+        font-size: 0.7em;
+        font-weight: 400;
+        width: 200px;
+
+        position: relative;
+        left: 810px;
+        bottom: 715px;
+
+      }
+
+          #ACC li{
+            padding-bottom: 13px;
+          }
+              #ACC li:first-child{
+                color: #CCCCCC;
+              }
+
+      /* ******************Apple Values*********************** */
