@@ -405,6 +405,7 @@ height: 1023px;
   color: #66BBFF;
   font-size: 1.37em;
   font-weight: 400;
+  width: 200px;
 
   position: relative;
 
@@ -431,4 +432,15 @@ height: 1023px;
   top: 75px;
   left: 403px;
 
+}
+
+/* FOOTER */
+
+#footer{
+  width: 98.9vw;
+  height: 943px;
+  background-color: #222222;
+
+  position: relative;
+  bottom: 110px;
 }
