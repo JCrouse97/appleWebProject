@@ -336,6 +336,11 @@ cursor: pointer;
   position: absolute;
 }
 
+    #backgroundIMG2 h4:hover{
+      text-decoration: underline;
+      cursor: pointer;
+    }
+
 #BG2LMArrow{
   position: absolute;
 
@@ -415,11 +420,16 @@ height: 1023px;
   top: 45px;
 }
 
+    #backgroundIMG3 h4:hover{
+      cursor: pointer;
+    }
+
     #BG3LMArrow{
       position: relative;
       font-size: 1.8em;
       font-weight: 300;
       top: 5px;
+
     }
 
 /* IMG 3 ACTUAL */
@@ -436,7 +446,7 @@ height: 1023px;
 
 }
 
-/* FOOTER */
+/* *****************************FOOTER********************************* */
 
 #footer{
   width: 1425px;
@@ -528,6 +538,11 @@ height: 1023px;
           left: 409px;
           bottom: 75px;
         }
+
+            #footerIMG1h3:hover{
+              text-decoration: underline;
+              cursor: pointer;
+            }
         #footerIMG2h3{
           color: #66BBFF;
           font-size: 0.85em;
@@ -540,6 +555,10 @@ height: 1023px;
           position: relative;
           left: 818px;
           bottom: 70px;
+        }
+        #footerIMG2h3:hover{
+          text-decoration: underline;
+          cursor: pointer;
         }
 
 #footer h4{
