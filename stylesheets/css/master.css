@@ -3,7 +3,7 @@ body{
   background-color: white;
   font-family:"helvetica neue", helvetica, sans-serif;
   background-color: #000000;
-  box-sizing: border-box;
+  height: 4420px;
 }
 
 /* ****************************HEADER****************************** */
@@ -592,3 +592,51 @@ height: 1023px;
       position: relative;
       bottom: 2px;
     }
+
+    /* *************************Apple SubMenus*********************** */
+
+#appleSubMenus{
+  width: 1425px;
+  height: 370px;
+  position: relative;
+  bottom: 500px;
+}
+
+
+  /* ***************************Shop and learn*********************** */
+  #S-L{
+    color:#848484;
+    font-size: 0.7em;
+    font-weight: 400;
+    width: 200px;
+
+    position: relative;
+    left: 225px;
+    top: 6px;
+  }
+
+      #S-L li{
+        padding-bottom: 13px;
+      }
+          #S-L li:first-child{
+            color: #CCCCCC;
+          }
+
+    /* ***************************Apple Store ***************************/
+    #A-S{
+      color:#848484;
+      font-size: 0.7em;
+      font-weight: 400;
+      width: 200px;
+
+      position: relative;
+      left: 420px;
+      bottom: 285px;
+    }
+
+        #A-S li{
+          padding-bottom: 13px;
+        }
+            #A-S li:first-child{
+              color: #CCCCCC;
+            }
