@@ -567,3 +567,28 @@ height: 1023px;
   color: #555555;
   position: relative;
 }
+
+/* *****************************Apple to TV Menu************************* */
+#footer h5{
+  color: #878787;
+  font-size: 1.2em;
+  font-weight: 200;
+  width: 100px;
+  position: relative;
+  bottom: 15px;
+  left: 222px;
+  letter-spacing: 2px;
+}
+
+    #appleTVArrow{
+      font-size: 2.6em;
+      font-weight: 100;
+      position: relative;
+      top: 7px;
+      color: #555;
+    }
+    #appleTVtv{
+      font-size: 0.6em;
+      position: relative;
+      bottom: 2px;
+    }
