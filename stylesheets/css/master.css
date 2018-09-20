@@ -219,7 +219,7 @@ header ul li{
 
 }
 
-/* LEARN MORE BUY LIST */
+/* ************************LEARN MORE BUY LIST *************************/
 #backgroundIMG1 ul{
   width: 300px;
   height: 32px;
@@ -262,7 +262,7 @@ header ul li{
 
     }
 
-/* WATCH ON NETFLIX */
+/* ************************WATCH ON NETFLIX************************ */
 #backgroundIMG1 h4{
 color: white;
 font-size: 0.98em;
@@ -284,13 +284,13 @@ cursor: pointer;
     text-decoration: underline;
   }
 
-  /* BACKGROUND IMAGE 2 */
+  /* ************************BACKGROUND IMAGE 2************************ */
 #backgroundIMG2{
   width: 1425px;
   height: 1158px;
 }
 
-/* APPLE TV APP */
+/* ************************APPLE TV APP************************ */
 #backgroundIMG2 h1{
   color: white;
   font-size: 1.45em;
@@ -300,7 +300,7 @@ cursor: pointer;
   margin: 100px 0px 0px 45%;
 }
 
-/* Everything you watch, on every screen. */
+/* ******************Everything you watch, on every screen.*********** */
 #backgroundIMG2 h2{
   color: white;
   font-size: 3.85em;
@@ -314,7 +314,7 @@ cursor: pointer;
   margin: 135px 0px 0px 28%;
 }
 
-/* IMG2 PARAGRAPH */
+/* ************************IMG2 PARAGRAPH************************ */
 #backgroundIMG2 h3{
   color: white;
   font-size: 1.48em;
@@ -327,6 +327,7 @@ cursor: pointer;
   text-align: center;
 }
 
+/* ************************IMG 2 Learn more link************************ */
 #backgroundIMG2 h4{
   color: #66BBFF;
   font-size: 1.45em;
@@ -349,7 +350,7 @@ cursor: pointer;
   font-weight: 300;
 }
 
-/* IMG 2 ACTUAL */
+/* ************************IMG 2 ACTUAL************************ */
 #IMG2{
   width: 932px;
   height: 572px;
@@ -362,14 +363,14 @@ cursor: pointer;
 
 }
 
-/* BACKGROUNDIMG3 */
+/* ************************BACKGROUNDIMG3************************ */
 
 #backgroundIMG3{
 width: 1425px;
 height: 1023px;
 }
 
-/* Accessories */
+/* ************************Accessories Text************************ */
 #backgroundIMG3 h1{
   color: white;
   font-size: 1.5em;
@@ -379,7 +380,7 @@ height: 1023px;
   margin: 115px 0px 0px 45.5%;
 }
 
-/* GET EVEN MORE FROM YOUR APPLE TV */
+/* ************************GET EVEN MORE FROM YOUR APPLE TV***************** */
 #backgroundIMG3 h2{
   color: white;
   font-size: 3.8em;
@@ -394,7 +395,7 @@ height: 1023px;
   letter-spacing: -1px;
 }
 
-/* IMG 2 PARAGRAPH */
+/* ************************IMG 2 PARAGRAPH************************ */
 #backgroundIMG3 h3{
   color: white;
   font-size: 1.5em;
@@ -407,7 +408,7 @@ height: 1023px;
   line-height: 1.3;
 }
 
-/* SHOP Accessories link */
+/* ************************SHOP Accessories link************************ */
 #backgroundIMG3 h4{
   color: #66BBFF;
   font-size: 1.37em;
@@ -432,7 +433,8 @@ height: 1023px;
 
     }
 
-/* IMG 3 ACTUAL */
+
+/* ************************IMG 3 ACTUAL************************ */
 #IMG3{
   width: 619px;
   height:493px;
@@ -448,6 +450,7 @@ height: 1023px;
 
 /* *****************************FOOTER********************************* */
 
+/* ************************Footer Div************************ */
 #footer{
   width: 1425px;
   height: 943px;
@@ -457,6 +460,7 @@ height: 1023px;
   bottom: 110px;
 }
 
+  /* ************************Footer Shipping Icons************************ */
     #footerIMG1{
       height: 74px;
       width: 74px;
@@ -477,6 +481,7 @@ height: 1023px;
       left: 881px;
     }
 
+    /* ******************Shipping Icon Info and Links********************* */
         #footerIMG1h1{
           color: #CCCCCC;
           font-size: 1.19em;
@@ -561,6 +566,7 @@ height: 1023px;
           cursor: pointer;
         }
 
+        /* ****************Footer Fine Text Paragraph******************** */
 #footer h4{
   font-size: 0.69em;
   line-height: 1.2;
@@ -599,6 +605,11 @@ height: 1023px;
   letter-spacing: 2px;
 }
 
+    #footer h5:hover{
+      color: #ccc;
+      cursor: pointer;
+    }
+
     #appleTVArrow{
       font-size: 2.6em;
       font-weight: 100;
@@ -622,7 +633,7 @@ height: 1023px;
 }
 
 
-  /* ***************************Shop and learn*********************** */
+  /* ***************************Shop and learn List*********************** */
   #S-L{
     color:#848484;
     font-size: 0.7em;
@@ -641,7 +652,7 @@ height: 1023px;
             color: #CCCCCC;
           }
 
-    /* ***************************Apple Store ***************************/
+    /* ***************************Apple Store List***************************/
     #A-S{
       color:#848484;
       font-size: 0.7em;
@@ -660,7 +671,7 @@ height: 1023px;
               color: #CCCCCC;
             }
 
-      /* *********************For Education**************************** */
+      /* *********************For Education List**************************** */
       #F-E{
         color:#848484;
         font-size: 0.7em;
@@ -680,7 +691,7 @@ height: 1023px;
                 color: #CCCCCC;
               }
 
-      /* *********************For Business**************************** */
+      /* *********************For Business List**************************** */
       #F-B{
         color:#848484;
         font-size: 0.7em;
@@ -700,7 +711,7 @@ height: 1023px;
                 color: #CCCCCC;
               }
 
-      /* *******************Account****************************** */
+      /* *******************Account List****************************** */
       #ACC{
         color:#848484;
         font-size: 0.7em;
@@ -720,7 +731,7 @@ height: 1023px;
                 color: #CCCCCC;
               }
 
-      /* ******************Apple Values*********************** */
+      /* ******************Apple Values List*********************** */
       #A-V{
         color:#848484;
         font-size: 0.7em;
@@ -740,7 +751,7 @@ height: 1023px;
                 color: #CCCCCC;
               }
 
-        /* ******************About Apple********************** */
+        /* ******************About Apple List********************** */
         #A-A{
           color:#848484;
           font-size: 0.7em;
@@ -765,6 +776,11 @@ height: 1023px;
                   text-decoration: underline;
                   color: #ccc;
 
+                }
+
+                #appleSubMenus li:first-child:hover{
+                  text-decoration: none;
+                  cursor: default;
                 }
 
         /* ***************Contact info and other garbage**************** */
@@ -827,4 +843,13 @@ span#flagIMG{
   position: relative;
   top: 2px;
   background-position: center;
+}
+
+#appleSubMenus span:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+#appleSubMenus h3:hover{
+  cursor: pointer;
 }
