@@ -56,70 +56,96 @@ a{
         background-position: center;
       }
 
-
-
-/* header div{
-  width: 1425px;
-  height: 44px;
-
-  background-color: #000
-}
-
-header ul{
-  width: 1070px;
-  height: 100%;
-
-  margin: 0 auto;
-
-
-}
-
-header ul li{
-  width: 10%;
-  height: 100%;
-
-  display: inline-block;
-  float: left;
-
-  text-align: center;
-
-  line-height: 44px;
-  color: #fff;
-  font-weight: 300;
-  font-size: 0.82em;
-  letter-spacing: 0.08em;
-
-  cursor: pointer;
-  user-select: none;
-  transition: 0.2s;
-
-}
-
-    header ul li:hover{
-      color: #a7a7a7;
-      transition: 0.2s;
-    } */
-/* ******************************apple logo******************************** */
-    /* header ul li:first-child{
-      font-size: 1.4em;
-    } */
-
-    /* *************************search icon******************************** */
-    /* header ul li:nth-child(9){
-      background:url('https://www.apple.com/ac/globalnav/4/en_US/images/globalnav/search/image_large.svg');
-      background-repeat: no-repeat;
-      background-position: center;
-    } */
-
-    /* **************************shopping bag****************************** */
-    /* header ul li:last-child{
-      background:url('https://www.apple.com/ac/globalnav/4/en_US/images/globalnav/bag/image_large.svg');
-      background-position: center;
-      background-repeat: no-repeat;
-    } */
-
 /* ******************************NAVBAR2 ICONS*******************************/
-#navbar2{
+
+.navbar2BG{
+  height: 116px;
+  width: 98.9vw;
+  background-color: #141414;
+  position: relative;
+}
+
+  .navbar2Container{
+    height: 55px;
+    width: 445px;
+    position: relative;
+    left: 506px;
+    top: 14px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+      .navbar2Container div{
+        cursor: pointer;
+      }
+
+      .navbar2Container div:first-child{
+        width: 64px;
+        height: 54px;
+        background: url('../stylesheets/media/imgs/header 2/apple_tv_dark_large.svg');
+        background-repeat: no-repeat;
+        padding-left: 10px;
+      }
+      .navbar2Container div:nth-child(2){
+        width: 64px;
+        height: 54px;
+        background: url('../stylesheets/media/imgs/header 2/apple_tv_dark_large.svg');
+        background-repeat: no-repeat;
+        margin-left: 6px;
+      }
+      .navbar2Container div:nth-child(3){
+        width: 64px;
+        height: 54px;
+        background: url('../stylesheets/media/imgs/header 2/tvapp_dark_large.svg');
+        background-repeat: no-repeat;
+        margin-right: 12px;
+      }
+      .navbar2Container div:nth-child(4){
+        width: 64px;
+        height: 54px;
+        background: url('../stylesheets/media/imgs/header 2/accessories_dark_large.svg');
+        background-repeat: no-repeat;
+        margin-right: 20px;
+      }
+      .navbar2Container div:last-child{
+        width: 64px;
+        height: 54px;
+        background: url('../stylesheets/media/imgs/header 2/compare_dark_large.svg');
+        background-repeat: no-repeat;
+      }
+
+      /* *************************NAVBAR 2 TEXT**************************** */
+
+      .navbar2Container2{
+        height: 55px;
+        width: 440px;
+        position: relative;
+        left: 492px;
+        bottom: 4px;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+          .navbar2Container2 div{
+            color: white;
+            font-size: 0.63em;
+            font-weight: 300;
+            letter-spacing: 1px;
+            cursor: pointer;
+          }
+
+              .navbar2Container2 div:hover{
+                color: #5BADD3;
+              }
+
+
+/* #navbar2{
   width: 1425px;
   height: 116px;
   background-color: #141414;
@@ -165,11 +191,11 @@ header ul li{
     #navIcons li:last-child{
       background: url('../stylesheets/media/imgs/header 2/compare_dark_large.svg');
       background-repeat: no-repeat;
-    }
+    } */
 
 /* ****************************NAVBAR2 TEXT****************************** */
 
-#navText{
+/* #navText{
   width: 34%;
   height: 20%;
   margin: 0px 0px 0px 490px;
@@ -193,7 +219,7 @@ header ul li{
 
     #navText li:hover{
       color: #5BADD3;
-    }
+    } */
 
 #backgroundIMG1{
   width: 1425px;
