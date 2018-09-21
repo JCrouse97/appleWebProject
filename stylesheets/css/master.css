@@ -557,9 +557,16 @@ height: 1023px;
           text-align: center;
 
           position: relative;
-          left: 409px;
+          left: 402px;
           bottom: 75px;
         }
+
+            #IMG1h3Arrow{
+              font-size: 2em;
+              position: absolute;
+              left: 140px;
+              bottom: -8px;
+            }
 
             #footerIMG1h3:hover{
               text-decoration: underline;
@@ -578,10 +585,18 @@ height: 1023px;
           left: 818px;
           bottom: 70px;
         }
-        #footerIMG2h3:hover{
-          text-decoration: underline;
-          cursor: pointer;
-        }
+
+            #IMG2h3Arrow{
+              font-size: 2em;
+              position: absolute;
+              left: 140px;
+              bottom: -8px;
+            }
+
+            #footerIMG2h3:hover{
+              text-decoration: underline;
+              cursor: pointer;
+            }
 
         /* ****************Footer Fine Text Paragraph******************** */
 #footer h4{
